@@ -177,6 +177,7 @@ extension SettingsView {
                 Text("Japanese").tag("ja")
                 Text("Korean").tag("ko")
                 Text("Chinese").tag("zh-Hans")
+                Text("Traditional Chinese (Taiwan)").tag("zh-TW")
             } label: {
                 SettingsLine(glyph: .theme, title: "App Language", subtitle: "Follows system unless you pick one") {
                     EmptyView()

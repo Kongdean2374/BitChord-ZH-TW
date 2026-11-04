@@ -31,13 +31,13 @@ struct AudioSettingsPageView: View {
                         itemView(item).id(item)
                     }
                 } header: {
-                    Text(page.title)
+                    Text(LocalizedStringKey(page.title))
                 } footer: {
-                    Text(footer)
+                    Text(LocalizedStringKey(footer))
                 }
             }
             .formStyle(.grouped)
-            .navigationTitle(page.title)
+            .navigationTitle(LocalizedStringKey(page.title))
             .onAppear {
                 if let focus {
                     Task { @MainActor in
@@ -270,19 +270,19 @@ struct AudioSettingsPageView: View {
     private func qualityPicker(_ title: String, selection: Binding<String>, inUse: Bool) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             Picker(title, selection: selection) {
-                ForEach(AudioQualityOption.stream) { option in Text(option.title).tag(option.id) }
+                ForEach(AudioQualityOption.stream) { option in Text(LocalizedStringKey(option.title)).tag(option.id) }
             }
             note("\(inUse ? "In use on this connection" : "Saved for this connection") · \(AudioQualityOption.stream.first { $0.id == selection.wrappedValue }?.detail ?? selection.wrappedValue)")
         }
     }
     private func valueRow(_ label: String, _ value: String) -> some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text(label).font(.subheadline.weight(.medium))
+            Text(LocalizedStringKey(label)).font(.subheadline.weight(.medium))
             Text(value).foregroundStyle(.secondary).textSelection(.enabled)
         }
     }
     private func note(_ text: String) -> some View {
-        Text(text).font(.footnote).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
+        Text(LocalizedStringKey(text)).font(.footnote).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
     }
 }
 
