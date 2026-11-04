@@ -20,7 +20,7 @@ missing = []
 translated = 0
 for key, entry in strings.items():
     unit = entry.get('localizations', {}).get('zh-TW', {}).get('stringUnit', {})
-    if not unit.get('value'):
+    if 'value' not in unit or (key and not unit['value']):
         missing.append(key)
         continue
     translated += 1

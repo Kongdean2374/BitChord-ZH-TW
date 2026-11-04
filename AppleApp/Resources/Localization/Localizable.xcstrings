@@ -1,9 +1,54 @@
 {
   "sourceLanguage": "en",
   "strings": {
-    "1": {},
-    "": {},
-    "%@": {},
+    "1": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1"
+          }
+        }
+      }
+    },
+    "": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ""
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": ""
+          }
+        }
+      }
+    },
+    "%@": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        }
+      }
+    },
     "%@ couldn't load": {
       "localizations": {
         "zh-TW": {
@@ -162,8 +207,38 @@
         }
       }
     },
-    "%d": {},
-    "%lld": {},
+    "%d": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d"
+          }
+        }
+      }
+    },
+    "%lld": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        }
+      }
+    },
     "%lld %@": {
       "localizations": {
         "en": {
@@ -186,7 +261,22 @@
         }
       }
     },
-    "%lld Hz": {},
+    "%lld Hz": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Hz"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Hz"
+          }
+        }
+      }
+    },
     "%lld albums": {
       "localizations": {
         "zh-TW": {
@@ -242,6 +332,18 @@
             "state": "new",
             "value": "%1$lld of %2$lld tracks matched. Choose the matches to keep. Unmatched tracks stay in the playlist and can be matched later."
           }
+        },
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已配對 %1$lld／%2$lld 首歌曲。請選擇要保留的配對。未配對的歌曲會留在播放列表中，可稍後再比對。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已配對 %1$lld／%2$lld 首歌曲。請選擇要保留的配對。未配對的歌曲會留在播放列表中，可稍後再比對。"
+          }
         }
       }
     },
@@ -251,6 +353,18 @@
           "stringUnit": {
             "state": "new",
             "value": "%1$lld of %2$lld tracks · %3$@"
+          }
+        },
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld／%2$lld 首歌曲・%3$@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld／%2$lld 首歌曲・%3$@"
           }
         }
       }
@@ -303,8 +417,38 @@
         }
       }
     },
-    "%lld%%": {},
-    "%lld.": {},
+    "%lld%%": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld%%"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld%%"
+          }
+        }
+      }
+    },
+    "%lld.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld."
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld."
+          }
+        }
+      }
+    },
     "%lldm": {
       "localizations": {
         "zh-TW": {
@@ -321,9 +465,54 @@
         }
       }
     },
-    "+%lld": {},
-    "123.5 MB total · Runs 100% on-device · Private": {},
-    "46.7 MB of models · Runs 100% on-device · Private": {},
+    "+%lld": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+%lld"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+%lld"
+          }
+        }
+      }
+    },
+    "123.5 MB total · Runs 100% on-device · Private": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "總計 123.5 MB・完全在裝置上執行・保護隱私"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "總計 123.5 MB・完全在裝置上執行・保護隱私"
+          }
+        }
+      }
+    },
+    "46.7 MB of models · Runs 100% on-device · Private": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型共 46.7 MB・完全在裝置上執行・保護隱私"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型共 46.7 MB・完全在裝置上執行・保護隱私"
+          }
+        }
+      }
+    },
     "A BitChord update is available": {
       "localizations": {
         "zh-TW": {
@@ -340,9 +529,54 @@
         }
       }
     },
-    "A library you host yourself, played from the server rather than from a catalogue. It takes no part in the ranking above — it holds your own files, so it is not standing in for anything.": {},
-    "A party server is a deployment somebody has to run. This app does not ship one.": {},
-    "A version switch resumes where you left off. With this off it restarts from the top, since no alignment is attempted.": {},
+    "A library you host yourself, played from the server rather than from a catalogue. It takes no part in the ranking above — it holds your own files, so it is not standing in for anything.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由你自行架設的音樂資料庫，直接從伺服器播放，不使用線上曲庫。其中存放的是你自己的檔案，不是其他來源的替代版本，因此不參與上方的來源排序。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由你自行架設的音樂資料庫，直接從伺服器播放，不使用線上曲庫。其中存放的是你自己的檔案，不是其他來源的替代版本，因此不參與上方的來源排序。"
+          }
+        }
+      }
+    },
+    "A party server is a deployment somebody has to run. This app does not ship one.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聆聽派對需要有人架設並執行伺服器，此 App 不提供伺服器。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聆聽派對需要有人架設並執行伺服器，此 App 不提供伺服器。"
+          }
+        }
+      }
+    },
+    "A version switch resumes where you left off. With this off it restarts from the top, since no alignment is attempted.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "切換版本時會從原本的位置繼續播放。關閉後不會嘗試對齊時間，因此會從頭播放。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "切換版本時會從原本的位置繼續播放。關閉後不會嘗試對齊時間，因此會從頭播放。"
+          }
+        }
+      }
+    },
     "ALBUM": {
       "localizations": {
         "zh-TW": {
@@ -1121,8 +1355,38 @@
         }
       }
     },
-    "AirPlay": {},
-    "AirPlay & Bluetooth": {},
+    "AirPlay": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AirPlay"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AirPlay"
+          }
+        }
+      }
+    },
+    "AirPlay & Bluetooth": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AirPlay 與藍牙"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AirPlay 與藍牙"
+          }
+        }
+      }
+    },
     "Album": {
       "localizations": {
         "zh-TW": {
@@ -1277,8 +1541,38 @@
         }
       }
     },
-    "Albums group themselves once a folder with tagged music is scanned.": {},
-    "Albums you save on YouTube Music show up here — or scan a folder on this device.": {},
+    "Albums group themselves once a folder with tagged music is scanned.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掃描含有音樂標籤的資料夾後，系統會自動依專輯分類。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掃描含有音樂標籤的資料夾後，系統會自動依專輯分類。"
+          }
+        }
+      }
+    },
+    "Albums you save on YouTube Music show up here — or scan a folder on this device.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你在 YouTube Music 儲存的專輯會顯示在這裡，也可以掃描此裝置上的資料夾。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你在 YouTube Music 儲存的專輯會顯示在這裡，也可以掃描此裝置上的資料夾。"
+          }
+        }
+      }
+    },
     "Already in %@": {
       "localizations": {
         "zh-TW": {
@@ -1423,7 +1717,22 @@
         }
       }
     },
-    "An API key and shared secret are required to authorise. Don’t share them.": {},
+    "An API key and shared secret are required to authorise. Don’t share them.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "授權需要 API 金鑰與共用密鑰，請勿與他人分享。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "授權需要 API 金鑰與共用密鑰，請勿與他人分享。"
+          }
+        }
+      }
+    },
     "Appearance": {
       "localizations": {
         "de": {
@@ -1536,7 +1845,22 @@
         }
       }
     },
-    "Apple’s Headphone Accommodations, Adaptive Audio and Conversation Awareness are managed in system Accessibility, AirPods settings and Control Center. BitChord keeps your manual EQ choices.": {},
+    "Apple’s Headphone Accommodations, Adaptive Audio and Conversation Awareness are managed in system Accessibility, AirPods settings and Control Center. BitChord keeps your manual EQ choices.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 的「耳機調節」、「適應性音訊」與「對話感知」由系統的「輔助使用」、AirPods 設定與「控制中心」管理。BitChord 會保留你手動設定的等化器選項。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 的「耳機調節」、「適應性音訊」與「對話感知」由系統的「輔助使用」、AirPods 設定與「控制中心」管理。BitChord 會保留你手動設定的等化器選項。"
+          }
+        }
+      }
+    },
     "Apply to all %lld conflicts": {
       "localizations": {
         "zh-TW": {
@@ -1681,8 +2005,38 @@
         }
       }
     },
-    "Artists group themselves once a folder with tagged music is scanned.": {},
-    "Artists you follow on YouTube Music show up here — or scan a folder on this device.": {},
+    "Artists group themselves once a folder with tagged music is scanned.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掃描含有音樂標籤的資料夾後，系統會自動依藝人分類。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掃描含有音樂標籤的資料夾後，系統會自動依藝人分類。"
+          }
+        }
+      }
+    },
+    "Artists you follow on YouTube Music show up here — or scan a folder on this device.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你在 YouTube Music 追蹤的藝人會顯示在這裡，也可以掃描此裝置上的資料夾。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你在 YouTube Music 追蹤的藝人會顯示在這裡，也可以掃描此裝置上的資料夾。"
+          }
+        }
+      }
+    },
     "Artists, Songs, Lyrics, and More": {
       "localizations": {
         "zh-TW": {
@@ -1801,7 +2155,22 @@
         }
       }
     },
-    "Auto-hide keeps the still sleeve when no motion clip was found. Prefer Spotify asks Spotify's catalogue first when looking one up.": {},
+    "Auto-hide keeps the still sleeve when no motion clip was found. Prefer Spotify asks Spotify's catalogue first when looking one up.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟自動隱藏後，找不到動態影片時會保留靜態封面。優先使用 Spotify 會先在 Spotify 曲庫中尋找。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟自動隱藏後，找不到動態影片時會保留靜態封面。優先使用 Spotify 會先在 Spotify 曲庫中尋找。"
+          }
+        }
+      }
+    },
     "Auto-hide motion art": {
       "localizations": {
         "zh-TW": {
@@ -1994,7 +2363,22 @@
         }
       }
     },
-    "BITCHORD": {},
+    "BITCHORD": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BITCHORD"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BITCHORD"
+          }
+        }
+      }
+    },
     "BITCHORD REPLAY": {
       "localizations": {
         "zh-TW": {
@@ -2161,12 +2545,102 @@
         }
       }
     },
-    "Beat This! (beat and downbeat detection) and open-unmix UMX-L (vocal detection). Both are verified against a pinned checksum after download.": {},
-    "Beat This! (beat and downbeat detection) and open-unmix umxhq (vocal detection). Both are downloaded once and verified against a pinned checksum.": {},
-    "Beat This! (beat and downbeat detection, optionally accelerated by Core ML), open-unmix umxhq (vocal detection), and the Core ML compilation of the same Beat This! checkpoint. All are downloaded once and verified against a pinned checksum.": {},
-    "Beat model installed with Core ML acceleration; vocal detection can be added for vocal-clash avoidance": {},
-    "Beat model installed; vocal detection can be added for vocal-clash avoidance": {},
-    "Beat, downbeat and vocal models installed, accelerated by Core ML — %@ on disk": {},
+    "Beat This! (beat and downbeat detection) and open-unmix UMX-L (vocal detection). Both are verified against a pinned checksum after download.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beat This!（節拍與重拍偵測）及 open-unmix UMX-L（人聲偵測）。下載後會使用預先指定的檢查碼驗證兩個模型。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beat This!（節拍與重拍偵測）及 open-unmix UMX-L（人聲偵測）。下載後會使用預先指定的檢查碼驗證兩個模型。"
+          }
+        }
+      }
+    },
+    "Beat This! (beat and downbeat detection) and open-unmix umxhq (vocal detection). Both are downloaded once and verified against a pinned checksum.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beat This!（節拍與重拍偵測）及 open-unmix umxhq（人聲偵測）。兩個模型只需下載一次，並使用預先指定的檢查碼驗證。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beat This!（節拍與重拍偵測）及 open-unmix umxhq（人聲偵測）。兩個模型只需下載一次，並使用預先指定的檢查碼驗證。"
+          }
+        }
+      }
+    },
+    "Beat This! (beat and downbeat detection, optionally accelerated by Core ML), open-unmix umxhq (vocal detection), and the Core ML compilation of the same Beat This! checkpoint. All are downloaded once and verified against a pinned checksum.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beat This!（節拍與重拍偵測，可選用 Core ML 加速）、open-unmix umxhq（人聲偵測），以及同一份 Beat This! 模型檢查點的 Core ML 編譯版本。所有模型只需下載一次，並使用預先指定的檢查碼驗證。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beat This!（節拍與重拍偵測，可選用 Core ML 加速）、open-unmix umxhq（人聲偵測），以及同一份 Beat This! 模型檢查點的 Core ML 編譯版本。所有模型只需下載一次，並使用預先指定的檢查碼驗證。"
+          }
+        }
+      }
+    },
+    "Beat model installed with Core ML acceleration; vocal detection can be added for vocal-clash avoidance": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝支援 Core ML 加速的節拍模型；可加裝人聲偵測，避免轉場時人聲重疊"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝支援 Core ML 加速的節拍模型；可加裝人聲偵測，避免轉場時人聲重疊"
+          }
+        }
+      }
+    },
+    "Beat model installed; vocal detection can be added for vocal-clash avoidance": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝節拍模型；可加裝人聲偵測，避免轉場時人聲重疊"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝節拍模型；可加裝人聲偵測，避免轉場時人聲重疊"
+          }
+        }
+      }
+    },
+    "Beat, downbeat and vocal models installed, accelerated by Core ML — %@ on disk": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝節拍、重拍與人聲模型，並使用 Core ML 加速・磁碟用量 %@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝節拍、重拍與人聲模型，並使用 Core ML 加速・磁碟用量 %@"
+          }
+        }
+      }
+    },
     "BitChord %@": {
       "localizations": {
         "zh-TW": {
@@ -2215,7 +2689,22 @@
         }
       }
     },
-    "BitChord analyzes your tracks on-device to match beats, time crossfades, and prevent vocal clashes between songs.": {},
+    "BitChord analyzes your tracks on-device to match beats, time crossfades, and prevent vocal clashes between songs.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BitChord 會在裝置上分析歌曲，以配對節拍、安排交叉淡化時機，並避免歌曲之間的人聲重疊。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BitChord 會在裝置上分析歌曲，以配對節拍、安排交叉淡化時機，並避免歌曲之間的人聲重疊。"
+          }
+        }
+      }
+    },
     "BitChord audio priority": {
       "localizations": {
         "zh-TW": {
@@ -2232,10 +2721,70 @@
         }
       }
     },
-    "BitChord installs from its releases page, so this opens it in your browser.": {},
-    "BitChord watches the folder you choose for music files. Filtering keeps everything that is not a song out of the list.": {},
-    "BitChord will still prefer its copy when the match is the same recording. It will not when it is not.": {},
-    "Bluetooth": {},
+    "BitChord installs from its releases page, so this opens it in your browser.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BitChord 透過版本發布頁面提供安裝，因此會在瀏覽器中開啟該頁面。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BitChord 透過版本發布頁面提供安裝，因此會在瀏覽器中開啟該頁面。"
+          }
+        }
+      }
+    },
+    "BitChord watches the folder you choose for music files. Filtering keeps everything that is not a song out of the list.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BitChord 會監看你選擇的資料夾，尋找音樂檔案。篩選功能會將非歌曲項目排除在列表外。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BitChord 會監看你選擇的資料夾，尋找音樂檔案。篩選功能會將非歌曲項目排除在列表外。"
+          }
+        }
+      }
+    },
+    "BitChord will still prefer its copy when the match is the same recording. It will not when it is not.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配對結果為同一份錄音時，BitChord 仍會優先使用自己的副本；若為不同錄音則不會。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配對結果為同一份錄音時，BitChord 仍會優先使用自己的副本；若為不同錄音則不會。"
+          }
+        }
+      }
+    },
+    "Bluetooth": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "藍牙"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "藍牙"
+          }
+        }
+      }
+    },
     "Bring your library, playlists and mixes with you, and start a Listen Together party with friends.": {
       "localizations": {
         "de": {
@@ -2620,7 +3169,22 @@
         }
       }
     },
-    "CarPlay": {},
+    "CarPlay": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CarPlay"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CarPlay"
+          }
+        }
+      }
+    },
     "Categories could not load. %@": {
       "localizations": {
         "zh-TW": {
@@ -2707,7 +3271,22 @@
         }
       }
     },
-    "Channels you subscribe to show up here.": {},
+    "Channels you subscribe to show up here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你訂閱的頻道會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你訂閱的頻道會顯示在這裡。"
+          }
+        }
+      }
+    },
     "Check for Updates": {
       "localizations": {
         "zh-TW": {
@@ -3332,7 +3911,22 @@
         }
       }
     },
-    "Compare counter changes while a track plays. The output callback also runs with an empty queue, so idle silent callbacks are expected.": {},
+    "Compare counter changes while a track plays. The output callback also runs with an empty queue, so idle silent callbacks are expected.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放歌曲時可比較計數器的變化。佇列為空時仍會執行輸出回呼，因此閒置時出現靜音回呼屬正常現象。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放歌曲時可比較計數器的變化。佇列為空時仍會執行輸出回呼，因此閒置時出現靜音回呼屬正常現象。"
+          }
+        }
+      }
+    },
     "Competing": {
       "localizations": {
         "de": {
@@ -3679,7 +4273,22 @@
         }
       }
     },
-    "Core ML · Neural Engine": {},
+    "Core ML · Neural Engine": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Core ML・神經網路引擎"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Core ML・神經網路引擎"
+          }
+        }
+      }
+    },
     "Could not translate this lyric": {
       "localizations": {
         "zh-TW": {
@@ -3994,7 +4603,22 @@
         }
       }
     },
-    "DAC": {},
+    "DAC": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DAC"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DAC"
+          }
+        }
+      }
+    },
     "Dark": {
       "localizations": {
         "de": {
@@ -4251,7 +4875,22 @@
         }
       }
     },
-    "Finds the singing at the start and end of each track so two vocals do not overlap during a transition.": {},
+    "Finds the singing at the start and end of each track so two vocals do not overlap during a transition.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偵測每首歌曲開頭與結尾的人聲，避免轉場時兩首歌曲的人聲重疊。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偵測每首歌曲開頭與結尾的人聲，避免轉場時兩首歌曲的人聲重疊。"
+          }
+        }
+      }
+    },
     "Developer": {
       "localizations": {
         "zh-TW": {
@@ -4419,10 +5058,37 @@
             "state": "translated",
             "value": "דיסקורד"
           }
+        },
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discord"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discord"
+          }
         }
       }
     },
-    "Discord has no API for an app to set your presence, so this signs in as your account and speaks its protocol. Your token is stored on this device and only ever sent to Discord — but it is your whole account, and automating one is against Discord's terms of service. Bans for presence alone aren't a thing anyone reports; it's still your call.": {},
+    "Discord has no API for an app to set your presence, so this signs in as your account and speaks its protocol. Your token is stored on this device and only ever sent to Discord — but it is your whole account, and automating one is against Discord's terms of service. Bans for presence alone aren't a thing anyone reports; it's still your call.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discord 未提供讓 App 設定動態的 API，因此此功能會以你的帳號登入，並使用 Discord 通訊協定。權杖只儲存在此裝置上，且只會傳送給 Discord，但它代表你的完整帳號存取權限，而自動操作帳號違反 Discord 服務條款。目前未見僅因顯示動態而遭停權的回報，是否使用仍由你自行決定。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discord 未提供讓 App 設定動態的 API，因此此功能會以你的帳號登入，並使用 Discord 通訊協定。權杖只儲存在此裝置上，且只會傳送給 Discord，但它代表你的完整帳號存取權限，而自動操作帳號違反 Discord 服務條款。目前未見僅因顯示動態而遭停權的回報，是否使用仍由你自行決定。"
+          }
+        }
+      }
+    },
     "Dismiss": {
       "localizations": {
         "zh-TW": {
@@ -4769,7 +5435,22 @@
         }
       }
     },
-    "Downloaded once and kept in BitChord's storage. Removing a model takes effect immediately: Automix falls back to tempo analysis without the beat model, and stops watching for vocal clashes without the vocal one.": {},
+    "Downloaded once and kept in BitChord's storage. Removing a model takes effect immediately: Automix falls back to tempo analysis without the beat model, and stops watching for vocal clashes without the vocal one.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型只需下載一次，並儲存在 BitChord 的儲存空間中。移除後會立即生效：缺少節拍模型時，AutoMix 改用速度分析；缺少人聲模型時，則不再偵測人聲重疊。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型只需下載一次，並儲存在 BitChord 的儲存空間中。移除後會立即生效：缺少節拍模型時，AutoMix 改用速度分析；缺少人聲模型時，則不再偵測人聲重疊。"
+          }
+        }
+      }
+    },
     "Downloading in Background — Done": {
       "localizations": {
         "zh-TW": {
@@ -4886,7 +5567,22 @@
         }
       }
     },
-    "Drag the puck: sideways tilts warm ↔ bright, up and down shapes the mids.": {},
+    "Drag the puck: sideways tilts warm ↔ bright, up and down shapes the mids.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖曳控制點：左右調整溫暖與明亮的音色，上下調整中頻。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拖曳控制點：左右調整溫暖與明亮的音色，上下調整中頻。"
+          }
+        }
+      }
+    },
     "Edit": {
       "localizations": {
         "zh-TW": {
@@ -5189,7 +5885,22 @@
         }
       }
     },
-    "Everyone in a party has to be pointed at the same server, and it has to be one somebody is running.": {},
+    "Everyone in a party has to be pointed at the same server, and it has to be one somebody is running.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "派對中的所有人都必須連至同一部伺服器，而且必須有人維持該伺服器運作。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "派對中的所有人都必須連至同一部伺服器，而且必須有人維持該伺服器運作。"
+          }
+        }
+      }
+    },
     "Explore": {
       "localizations": {
         "de": {
@@ -5302,7 +6013,22 @@
         }
       }
     },
-    "Exported downloads live in the shared Music folder. Private ones stay inside BitChord's own storage.": {},
+    "Exported downloads live in the shared Music folder. Private ones stay inside BitChord's own storage.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "匯出的下載項目會存放在共用的「音樂」資料夾中；私人下載項目則留在 BitChord 自己的儲存空間內。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "匯出的下載項目會存放在共用的「音樂」資料夾中；私人下載項目則留在 BitChord 自己的儲存空間內。"
+          }
+        }
+      }
+    },
     "Fill search with %@": {
       "localizations": {
         "zh-TW": {
@@ -5565,7 +6291,22 @@
         }
       }
     },
-    "Follow artists on YouTube Music — or scan a folder on this device.": {},
+    "Follow artists on YouTube Music — or scan a folder on this device.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 YouTube Music 追蹤藝人，或掃描此裝置上的資料夾。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 YouTube Music 追蹤藝人，或掃描此裝置上的資料夾。"
+          }
+        }
+      }
+    },
     "Follow the App Language": {
       "localizations": {
         "zh-TW": {
@@ -5582,7 +6323,22 @@
         }
       }
     },
-    "Forgets the address, the account and the password. Nothing on the server is touched.": {},
+    "Forgets the address, the account and the password. Nothing on the server is touched.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除儲存的位址、帳號與密碼，不會變更伺服器上的任何內容。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除儲存的位址、帳號與密碼，不會變更伺服器上的任何內容。"
+          }
+        }
+      }
+    },
     "French": {
       "localizations": {
         "de": {
@@ -5801,7 +6557,22 @@
         }
       }
     },
-    "Gapless stays on at 0s. Automix picks timing per track; crossfade sets the manual blend length.": {},
+    "Gapless stays on at 0s. Automix picks timing per track; crossfade sets the manual blend length.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設為 0 秒時仍保留無縫播放。AutoMix 會依歌曲決定轉場時機；交叉淡化則用來手動設定混合時間。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設為 0 秒時仍保留無縫播放。AutoMix 會依歌曲決定轉場時機；交叉淡化則用來手動設定混合時間。"
+          }
+        }
+      }
+    },
     "German": {
       "localizations": {
         "de": {
@@ -5914,7 +6685,22 @@
         }
       }
     },
-    "GitHub": {},
+    "GitHub": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GitHub"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GitHub"
+          }
+        }
+      }
+    },
     "Go Home": {
       "localizations": {
         "zh-TW": {
@@ -5947,7 +6733,22 @@
         }
       }
     },
-    "HDMI": {},
+    "HDMI": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HDMI"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HDMI"
+          }
+        }
+      }
+    },
     "Headphone": {
       "localizations": {
         "zh-TW": {
@@ -5980,7 +6781,22 @@
         }
       }
     },
-    "High Performance Mode holds the display at the chosen refresh rate instead of letting the system vary it. Expect noticeably shorter battery life while it is on.": {},
+    "High Performance Mode holds the display at the chosen refresh rate instead of letting the system vary it. Expect noticeably shorter battery life while it is on.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高效能模式會讓螢幕維持所選的更新率，不再由系統動態調整。開啟後電池續航力會明顯縮短。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高效能模式會讓螢幕維持所選的更新率，不再由系統動態調整。開啟後電池續航力會明顯縮短。"
+          }
+        }
+      }
+    },
     "Higher refresh rate?": {
       "localizations": {
         "zh-TW": {
@@ -6201,7 +7017,22 @@
         }
       }
     },
-    "Holding a high refresh rate keeps the display working harder the whole time BitChord is open, and the battery drains faster for it. Turn it on anyway?": {},
+    "Holding a high refresh rate keeps the display working harder the whole time BitChord is open, and the battery drains faster for it. Turn it on anyway?": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "維持高更新率會讓螢幕在 BitChord 開啟期間持續增加耗電量，使電池更快耗盡。仍要開啟嗎？"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "維持高更新率會讓螢幕在 BitChord 開啟期間持續增加耗電量，使電池更快耗盡。仍要開啟嗎？"
+          }
+        }
+      }
+    },
     "Home": {
       "localizations": {
         "de": {
@@ -6548,8 +7379,38 @@
         }
       }
     },
-    "Import a CSV or TSV playlist export from Spotify or Apple Music, or drop an .m3u file in your music folder.": {},
-    "Import a CSV or TSV playlist export from Spotify or Apple Music, save a playlist on YouTube Music, or drop an .m3u file in your music folder.": {},
+    "Import a CSV or TSV playlist export from Spotify or Apple Music, or drop an .m3u file in your music folder.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "匯入從 Spotify 或 Apple Music 匯出的 CSV 或 TSV 播放列表，或將 .m3u 檔案放入音樂資料夾。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "匯入從 Spotify 或 Apple Music 匯出的 CSV 或 TSV 播放列表，或將 .m3u 檔案放入音樂資料夾。"
+          }
+        }
+      }
+    },
+    "Import a CSV or TSV playlist export from Spotify or Apple Music, save a playlist on YouTube Music, or drop an .m3u file in your music folder.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "匯入從 Spotify 或 Apple Music 匯出的 CSV 或 TSV 播放列表、在 YouTube Music 儲存播放列表，或將 .m3u 檔案放入音樂資料夾。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "匯入從 Spotify 或 Apple Music 匯出的 CSV 或 TSV 播放列表、在 YouTube Music 儲存播放列表，或將 .m3u 檔案放入音樂資料夾。"
+          }
+        }
+      }
+    },
     "Imported to BitChord": {
       "localizations": {
         "zh-TW": {
@@ -7338,7 +8199,22 @@
         }
       }
     },
-    "L": {},
+    "L": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左"
+          }
+        }
+      }
+    },
     "Later": {
       "localizations": {
         "de": {
@@ -8069,8 +8945,38 @@
         }
       }
     },
-    "Liked playlists, albums and artists live here.": {},
-    "Liked playlists, albums and artists you save show up here.": {},
+    "Liked playlists, albums and artists live here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你喜歡的播放列表、專輯與藝人會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你喜歡的播放列表、專輯與藝人會顯示在這裡。"
+          }
+        }
+      }
+    },
+    "Liked playlists, albums and artists you save show up here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你喜歡的播放列表，以及儲存的專輯與藝人會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你喜歡的播放列表，以及儲存的專輯與藝人會顯示在這裡。"
+          }
+        }
+      }
+    },
     "List or grid": {
       "localizations": {
         "zh-TW": {
@@ -8833,7 +9739,22 @@
         }
       }
     },
-    "Lossless includes Hi-Res when an enabled source supplies it. Audio Pipeline shows the format actually decoded.": {},
+    "Lossless includes Hi-Res when an enabled source supplies it. Audio Pipeline shows the format actually decoded.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已啟用的來源提供高解析度音訊時，無損音質也包含高解析度。「音訊處理流程」會顯示實際解碼的格式。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已啟用的來源提供高解析度音訊時，無損音質也包含高解析度。「音訊處理流程」會顯示實際解碼的格式。"
+          }
+        }
+      }
+    },
     "Loudest around %@": {
       "localizations": {
         "zh-TW": {
@@ -8984,7 +9905,22 @@
         }
       }
     },
-    "Match Source Sample Rate asks the route to switch clock families between tracks. Bit-perfect output is available on macOS when the DAC grants exclusive access and the lossless source format is supported. The Audio Pipeline readout shows what is actually in effect.": {},
+    "Match Source Sample Rate asks the route to switch clock families between tracks. Bit-perfect output is available on macOS when the DAC grants exclusive access and the lossless source format is supported. The Audio Pipeline readout shows what is actually in effect.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「配合來源取樣率」會要求輸出路徑在歌曲之間切換時脈系列。在 macOS 上，DAC 允許獨佔存取且支援無損來源格式時，即可使用位元精準輸出。「音訊處理流程」會顯示實際生效的狀態。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「配合來源取樣率」會要求輸出路徑在歌曲之間切換時脈系列。在 macOS 上，DAC 允許獨佔存取且支援無損來源格式時，即可使用位元精準輸出。「音訊處理流程」會顯示實際生效的狀態。"
+          }
+        }
+      }
+    },
     "Match Unmatched": {
       "localizations": {
         "zh-TW": {
@@ -9145,7 +10081,22 @@
         }
       }
     },
-    "Millions of songs, played properly": {},
+    "Millions of songs, played properly": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好好聆聽數百萬首歌曲"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好好聆聽數百萬首歌曲"
+          }
+        }
+      }
+    },
     "Mini Player": {
       "localizations": {
         "zh-TW": {
@@ -9338,8 +10289,38 @@
         }
       }
     },
-    "Models are downloaded once and verified via SHA-256. Manage anytime in Settings.": {},
-    "Models download once · Runs 100% on-device · Private": {},
+    "Models are downloaded once and verified via SHA-256. Manage anytime in Settings.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型只需下載一次，並透過 SHA-256 驗證。你隨時可在「設定」中管理。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型只需下載一次，並透過 SHA-256 驗證。你隨時可在「設定」中管理。"
+          }
+        }
+      }
+    },
+    "Models download once · Runs 100% on-device · Private": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型只需下載一次・完全在裝置上執行・保護隱私"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "模型只需下載一次・完全在裝置上執行・保護隱私"
+          }
+        }
+      }
+    },
     "More": {
       "localizations": {
         "de": {
@@ -9532,8 +10513,38 @@
         }
       }
     },
-    "Narrower shapes around 250 Hz, 1 kHz and 4 kHz.": {},
-    "Needed for the PaxSeniX sources. Stored in the Keychain, not in preferences.": {},
+    "Narrower shapes around 250 Hz, 1 kHz and 4 kHz.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 250 Hz、1 kHz 與 4 kHz 附近採用較窄的頻帶調整。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 250 Hz、1 kHz 與 4 kHz 附近採用較窄的頻帶調整。"
+          }
+        }
+      }
+    },
+    "Needed for the PaxSeniX sources. Stored in the Keychain, not in preferences.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PaxSeniX 來源需要此金鑰。金鑰會儲存在「鑰匙圈」中，不會存入偏好設定。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PaxSeniX 來源需要此金鑰。金鑰會儲存在「鑰匙圈」中，不會存入偏好設定。"
+          }
+        }
+      }
+    },
     "New Playlist": {
       "localizations": {
         "zh-TW": {
@@ -9950,7 +10961,22 @@
         }
       }
     },
-    "No downloads yet. Save a track from Now Playing or a collection menu.": {},
+    "No downloads yet. Save a track from Now Playing or a collection menu.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚無下載項目。請從「播放中」或收藏集選單儲存歌曲。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚無下載項目。請從「播放中」或收藏集選單儲存歌曲。"
+          }
+        }
+      }
+    },
     "No enabled source can provide lossless audio. Add an addon to play lossless files without transcoding.": {
       "localizations": {
         "de": {
@@ -10367,7 +11393,22 @@
         }
       }
     },
-    "Non-music segments and audible boundaries are always used by Automix.": {},
+    "Non-music segments and audible boundaries are always used by Automix.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AutoMix 一律會參考非音樂片段與可聽見的段落邊界。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AutoMix 一律會參考非音樂片段與可聽見的段落邊界。"
+          }
+        }
+      }
+    },
     "Normalization": {
       "localizations": {
         "zh-TW": {
@@ -11398,7 +12439,22 @@
         }
       }
     },
-    "One **album** you kept coming back to.": {},
+    "One **album** you kept coming back to.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有一張你反覆聆聽的**專輯**。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有一張你反覆聆聽的**專輯**。"
+          }
+        }
+      }
+    },
     "Online": {
       "localizations": {
         "es": {
@@ -11865,7 +12921,22 @@
         }
       }
     },
-    "PCM 16": {},
+    "PCM 16": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "16 位元 PCM"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "16 位元 PCM"
+          }
+        }
+      }
+    },
     "PLAYLIST": {
       "localizations": {
         "zh-TW": {
@@ -12200,7 +13271,22 @@
         }
       }
     },
-    "Paste the sp_dc cookie from an open Spotify web session. BitChord uses it only to look up looping motion art. Leave blank to skip.": {},
+    "Paste the sp_dc cookie from an open Spotify web session. BitChord uses it only to look up looping motion art. Leave blank to skip.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "貼上已登入 Spotify 網頁的 sp_dc Cookie。BitChord 只會用它尋找循環動態封面。留空即可略過。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "貼上已登入 Spotify 網頁的 sp_dc Cookie。BitChord 只會用它尋找循環動態封面。留空即可略過。"
+          }
+        }
+      }
+    },
     "Pause": {
       "localizations": {
         "es": {
@@ -12349,7 +13435,22 @@
         }
       }
     },
-    "PaxSeniX Spotify and PaxSeniX Musixmatch reach two catalogues Apple Music does not carry, and both need a key from paxsenix.org. Everything else on this list works without one. Stored in the Keychain, not in preferences.": {},
+    "PaxSeniX Spotify and PaxSeniX Musixmatch reach two catalogues Apple Music does not carry, and both need a key from paxsenix.org. Everything else on this list works without one. Stored in the Keychain, not in preferences.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PaxSeniX Spotify 與 PaxSeniX Musixmatch 可存取 Apple Music 未提供的兩個曲庫，兩者都需要來自 paxsenix.org 的金鑰。此列表中的其他來源不需要金鑰即可使用。金鑰會儲存在「鑰匙圈」中，不會存入偏好設定。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PaxSeniX Spotify 與 PaxSeniX Musixmatch 可存取 Apple Music 未提供的兩個曲庫，兩者都需要來自 paxsenix.org 的金鑰。此列表中的其他來源不需要金鑰即可使用。金鑰會儲存在「鑰匙圈」中，不會存入偏好設定。"
+          }
+        }
+      }
+    },
     "People listening": {
       "localizations": {
         "zh-TW": {
@@ -12472,8 +13573,38 @@
         }
       }
     },
-    "Personalized recommendations and your library, on every device.": {},
-    "Pick a folder — BitChord reads its tags, artwork and plays it with gapless and crossfade.": {},
+    "Personalized recommendations and your library, on every device.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在每部裝置上享用個人化推薦與你的音樂資料庫。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在每部裝置上享用個人化推薦與你的音樂資料庫。"
+          }
+        }
+      }
+    },
+    "Pick a folder — BitChord reads its tags, artwork and plays it with gapless and crossfade.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇資料夾後，BitChord 會讀取音樂標籤與封面，並支援無縫播放及交叉淡化。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇資料夾後，BitChord 會讀取音樂標籤與封面，並支援無縫播放及交叉淡化。"
+          }
+        }
+      }
+    },
     "Pin": {
       "localizations": {
         "de": {
@@ -12858,8 +13989,38 @@
         }
       }
     },
-    "Play a few songs and this page will fill in with minutes, top tracks and artists.": {},
-    "Play a few songs this year and this page will fill in with minutes, top tracks and artists.": {},
+    "Play a few songs and this page will fill in with minutes, top tracks and artists.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放幾首歌曲後，此頁面就會顯示聆聽分鐘數、熱門歌曲與藝人。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "播放幾首歌曲後，此頁面就會顯示聆聽分鐘數、熱門歌曲與藝人。"
+          }
+        }
+      }
+    },
+    "Play a few songs this year and this page will fill in with minutes, top tracks and artists.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今年播放幾首歌曲後，此頁面就會顯示聆聽分鐘數、熱門歌曲與藝人。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今年播放幾首歌曲後，此頁面就會顯示聆聽分鐘數、熱門歌曲與藝人。"
+          }
+        }
+      }
+    },
     "Play a song to see lyrics here.": {
       "localizations": {
         "zh-TW": {
@@ -13290,9 +14451,54 @@
         }
       }
     },
-    "Playlists you save show up here.": {},
-    "Playlists, albums and artists you save show up here.": {},
-    "Plays on this account show up here, newest first.": {},
+    "Playlists you save show up here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你儲存的播放列表會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你儲存的播放列表會顯示在這裡。"
+          }
+        }
+      }
+    },
+    "Playlists, albums and artists you save show up here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你儲存的播放列表、專輯與藝人會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你儲存的播放列表、專輯與藝人會顯示在這裡。"
+          }
+        }
+      }
+    },
+    "Plays on this account show up here, newest first.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此帳號的播放記錄會顯示在這裡，最新的記錄排在最前面。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此帳號的播放記錄會顯示在這裡，最新的記錄排在最前面。"
+          }
+        }
+      }
+    },
     "Plays the top result": {
       "localizations": {
         "zh-TW": {
@@ -13341,8 +14547,38 @@
         }
       }
     },
-    "Podcasts you follow show up here.": {},
-    "Point BitChord at a WebDAV share in Sources and it will appear here.": {},
+    "Podcasts you follow show up here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你追蹤的 Podcast 會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你追蹤的 Podcast 會顯示在這裡。"
+          }
+        }
+      }
+    },
+    "Point BitChord at a WebDAV share in Sources and it will appear here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在「來源」中為 BitChord 設定 WebDAV 共享資料夾後，就會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在「來源」中為 BitChord 設定 WebDAV 共享資料夾後，就會顯示在這裡。"
+          }
+        }
+      }
+    },
     "Portuguese": {
       "localizations": {
         "de": {
@@ -13503,7 +14739,22 @@
         }
       }
     },
-    "Preserves the recording. Playback speed, Automix and crossfade keep their own settings.": {},
+    "Preserves the recording. Playback speed, Automix and crossfade keep their own settings.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保留原始錄音。播放速度、AutoMix 與交叉淡化仍使用各自的設定。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保留原始錄音。播放速度、AutoMix 與交叉淡化仍使用各自的設定。"
+          }
+        }
+      }
+    },
     "Preset": {
       "localizations": {
         "tr": {
@@ -13862,7 +15113,22 @@
         }
       }
     },
-    "R": {},
+    "R": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右"
+          }
+        }
+      }
+    },
     "Read from the engine as it runs. “—” is a figure the system does not report.": {
       "localizations": {
         "zh-TW": {
@@ -14029,7 +15295,22 @@
         }
       }
     },
-    "Recent technical events stay on this device. Reports exclude credentials and private paths. Audio capture is available separately in Audio Pipeline.": {},
+    "Recent technical events stay on this device. Reports exclude credentials and private paths. Audio capture is available separately in Audio Pipeline.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近的技術事件記錄只會保留在此裝置上。報告不包含登入憑證與私人路徑。音訊擷取功能可在「音訊處理流程」中另外使用。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近的技術事件記錄只會保留在此裝置上。報告不包含登入憑證與私人路徑。音訊擷取功能可在「音訊處理流程」中另外使用。"
+          }
+        }
+      }
+    },
     "Recently Searched": {
       "localizations": {
         "zh-TW": {
@@ -14168,7 +15449,22 @@
         }
       }
     },
-    "Reference clarity adds tonal contour, centered bass and gentle width. Manual EQ and spatial remain optional.": {},
+    "Reference clarity adds tonal contour, centered bass and gentle width. Manual EQ and spatial remain optional.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "參考清晰度會調整音色輪廓、讓低音置中，並略微擴展音場。你仍可自行選用手動等化器與空間音效。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "參考清晰度會調整音色輪廓、讓低音置中，並略微擴展音場。你仍可自行選用手動等化器與空間音效。"
+          }
+        }
+      }
+    },
     "Refresh": {
       "localizations": {
         "zh-TW": {
@@ -14895,8 +16191,38 @@
         }
       }
     },
-    "Runs the same Beat This! model on the Neural Engine, several times faster than the CPU path. Requires the beat model.": {},
-    "Same song in Downloads and on this share. Choose which copy wins.": {},
+    "Runs the same Beat This! model on the Neural Engine, several times faster than the CPU path. Requires the beat model.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在神經網路引擎上執行同一個 Beat This! 模型，速度比 CPU 執行快上數倍。需要先安裝節拍模型。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在神經網路引擎上執行同一個 Beat This! 模型，速度比 CPU 執行快上數倍。需要先安裝節拍模型。"
+          }
+        }
+      }
+    },
+    "Same song in Downloads and on this share. Choose which copy wins.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「下載項目」與此共享資料夾中有同一首歌曲，請選擇要優先使用的副本。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「下載項目」與此共享資料夾中有同一首歌曲，請選擇要優先使用的副本。"
+          }
+        }
+      }
+    },
     "Save": {
       "localizations": {
         "de": {
@@ -15041,8 +16367,38 @@
         }
       }
     },
-    "Save a track from Now Playing — BitChord tags it and keeps it here.": {},
-    "Save albums on YouTube Music — or scan a folder on this device.": {},
+    "Save a track from Now Playing — BitChord tags it and keeps it here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "從「播放中」儲存歌曲後，BitChord 會寫入標籤並將歌曲保留在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "從「播放中」儲存歌曲後，BitChord 會寫入標籤並將歌曲保留在這裡。"
+          }
+        }
+      }
+    },
+    "Save albums on YouTube Music — or scan a folder on this device.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 YouTube Music 儲存專輯，或掃描此裝置上的資料夾。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 YouTube Music 儲存專輯，或掃描此裝置上的資料夾。"
+          }
+        }
+      }
+    },
     "Save to Library": {
       "localizations": {
         "zh-TW": {
@@ -15219,7 +16575,22 @@
         }
       }
     },
-    "Scan a folder to see its songs here too.": {},
+    "Scan a folder to see its songs here too.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掃描資料夾後，也能在這裡查看其中的歌曲。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "掃描資料夾後，也能在這裡查看其中的歌曲。"
+          }
+        }
+      }
+    },
     "Scan your music": {
       "localizations": {
         "zh-TW": {
@@ -15998,7 +17369,22 @@
         }
       }
     },
-    "Seven-band parametric EQ with shelves at both ends. Flat is sample-identical passthrough.": {},
+    "Seven-band parametric EQ with shelves at both ends. Flat is sample-identical passthrough.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "七頻段參數式等化器，兩端使用棚架式濾波器。設為平坦時會直接傳遞音訊，取樣資料完全不變。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "七頻段參數式等化器，兩端使用棚架式濾波器。設為平坦時會直接傳遞音訊，取樣資料完全不變。"
+          }
+        }
+      }
+    },
     "Share": {
       "localizations": {
         "de": {
@@ -16367,7 +17753,22 @@
         }
       }
     },
-    "Show what you’re playing on your Discord profile, updating as the track does.": {},
+    "Show what you’re playing on your Discord profile, updating as the track does.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Discord 個人檔案中顯示正在播放的內容，並隨歌曲更新。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Discord 個人檔案中顯示正在播放的內容，並隨歌曲更新。"
+          }
+        }
+      }
+    },
     "Shuffle": {
       "localizations": {
         "de": {
@@ -17450,8 +18851,38 @@
         }
       }
     },
-    "Songs you add to your YouTube Music library — or a folder you scan on this device.": {},
-    "Songs you add to your library show up here.": {},
+    "Songs you add to your YouTube Music library — or a folder you scan on this device.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你加入 YouTube Music 音樂資料庫的歌曲，或從此裝置資料夾掃描到的歌曲。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你加入 YouTube Music 音樂資料庫的歌曲，或從此裝置資料夾掃描到的歌曲。"
+          }
+        }
+      }
+    },
+    "Songs you add to your library show up here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你加入音樂資料庫的歌曲會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你加入音樂資料庫的歌曲會顯示在這裡。"
+          }
+        }
+      }
+    },
     "Sort": {
       "localizations": {
         "de": {
@@ -18006,7 +19437,22 @@
         }
       }
     },
-    "Spotify Canvas": {},
+    "Spotify Canvas": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spotify Canvas"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spotify Canvas"
+          }
+        }
+      }
+    },
     "Spotify Canvas Setup": {
       "localizations": {
         "zh-TW": {
@@ -18039,7 +19485,22 @@
         }
       }
     },
-    "Spotify sp_dc cookie (optional canvas)": {},
+    "Spotify sp_dc cookie (optional canvas)": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spotify sp_dc Cookie（動態封面選用）"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spotify sp_dc Cookie（動態封面選用）"
+          }
+        }
+      }
+    },
     "Start Radio": {
       "localizations": {
         "zh-TW": {
@@ -18538,8 +19999,38 @@
         }
       }
     },
-    "Swipe up for Up Next, swipe down to return to the player.": {},
-    "Swipe up or down to adjust when the lyrics appear": {},
+    "Swipe up for Up Next, swipe down to return to the player.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "向上滑動以查看接下來播放的歌曲，向下滑動以返回播放器。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "向上滑動以查看接下來播放的歌曲，向下滑動以返回播放器。"
+          }
+        }
+      }
+    },
+    "Swipe up or down to adjust when the lyrics appear": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上下滑動以調整歌詞顯示時間"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上下滑動以調整歌詞顯示時間"
+          }
+        }
+      }
+    },
     "Switch Channel": {
       "localizations": {
         "zh-TW": {
@@ -19402,12 +20893,102 @@
         }
       }
     },
-    "The same Beat This! model, compiled for the Neural Engine. It falls back to the standard beat model on short tracks or if inference fails.": {},
-    "The server answered and there is no audio in it. If you expected a folder here, it may be somewhere else on the share.": {},
-    "The system picker routes this app's audio — AirPlay, Bluetooth and the device speaker.": {},
-    "There isn't much from this month yet. Play a few songs and it will fill in.": {},
-    "There was one **artist** you never got tired of.": {},
-    "There was one **genre** you came back to again and again.": {},
+    "The same Beat This! model, compiled for the Neural Engine. It falls back to the standard beat model on short tracks or if inference fails.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同一個 Beat This! 模型，已編譯為適用於神經網路引擎的版本。歌曲較短或推論失敗時，會改用標準節拍模型。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同一個 Beat This! 模型，已編譯為適用於神經網路引擎的版本。歌曲較短或推論失敗時，會改用標準節拍模型。"
+          }
+        }
+      }
+    },
+    "The server answered and there is no audio in it. If you expected a folder here, it may be somewhere else on the share.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "伺服器已回應，但此處沒有音訊。如果你預期這裡應該有資料夾，它可能位於共享資料夾的其他位置。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "伺服器已回應，但此處沒有音訊。如果你預期這裡應該有資料夾，它可能位於共享資料夾的其他位置。"
+          }
+        }
+      }
+    },
+    "The system picker routes this app's audio — AirPlay, Bluetooth and the device speaker.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用系統選擇器設定此 App 的音訊輸出，包括 AirPlay、藍牙及裝置揚聲器。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用系統選擇器設定此 App 的音訊輸出，包括 AirPlay、藍牙及裝置揚聲器。"
+          }
+        }
+      }
+    },
+    "There isn't much from this month yet. Play a few songs and it will fill in.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本月的聆聽記錄還不多，播放幾首歌曲後就會逐漸累積。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本月的聆聽記錄還不多，播放幾首歌曲後就會逐漸累積。"
+          }
+        }
+      }
+    },
+    "There was one **artist** you never got tired of.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有一位你怎麼聽都不膩的**藝人**。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有一位你怎麼聽都不膩的**藝人**。"
+          }
+        }
+      }
+    },
+    "There was one **genre** you came back to again and again.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有一種你反覆聆聽的**曲風**。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有一種你反覆聆聽的**曲風**。"
+          }
+        }
+      }
+    },
     "This connection is set below High quality, so streams are transcoded to fit that limit. Downloads are unaffected.": {
       "localizations": {
         "de": {
@@ -19520,10 +21101,70 @@
         }
       }
     },
-    "This download and a track on your WebDAV share name the same song.": {},
-    "This invite points at somebody else’s party server, so joining switches this device to it.": {},
-    "This is a preference, not a per-track setting — the same lag applies to every track, so it is set once.": {},
-    "This is your **Replay** — the year in music you actually played.": {},
+    "This download and a track on your WebDAV share name the same song.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此下載項目與 WebDAV 共享資料夾中的歌曲指向同一首歌。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此下載項目與 WebDAV 共享資料夾中的歌曲指向同一首歌。"
+          }
+        }
+      }
+    },
+    "This invite points at somebody else’s party server, so joining switches this device to it.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此邀請使用其他人的派對伺服器，加入後，此裝置會切換至該伺服器。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此邀請使用其他人的派對伺服器，加入後，此裝置會切換至該伺服器。"
+          }
+        }
+      }
+    },
+    "This is a preference, not a per-track setting — the same lag applies to every track, so it is set once.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這是全域偏好設定，不是個別歌曲設定。所有歌曲都會套用相同的延遲，因此只需設定一次。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這是全域偏好設定，不是個別歌曲設定。所有歌曲都會套用相同的延遲，因此只需設定一次。"
+          }
+        }
+      }
+    },
+    "This is your **Replay** — the year in music you actually played.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這是你的**年度回顧**，記錄這一年你實際播放的音樂。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這是你的**年度回顧**，記錄這一年你實際播放的音樂。"
+          }
+        }
+      }
+    },
     "This page has no playable tracks.": {
       "localizations": {
         "zh-TW": {
@@ -19764,7 +21405,22 @@
         }
       }
     },
-    "Tracks you play will show up here.": {},
+    "Tracks you play will show up here.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你播放的歌曲會顯示在這裡。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你播放的歌曲會顯示在這裡。"
+          }
+        }
+      }
+    },
     "Translate to %@": {
       "localizations": {
         "zh-TW": {
@@ -19813,8 +21469,38 @@
         }
       }
     },
-    "Tried in this order — drag to reorder. The highest-priority source to answer at all wins, unless Prefer Word-Synced Lyrics says to keep looking for a word-synced one.": {},
-    "Tried top to bottom. Reorder in Settings → Lyrics → Lyrics Sources.": {},
+    "Tried in this order — drag to reorder. The highest-priority source to answer at all wins, unless Prefer Word-Synced Lyrics says to keep looking for a word-synced one.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "依此順序嘗試，拖曳即可重新排序。優先採用最先回應的高順位來源；若開啟「優先使用逐字同步歌詞」，則會繼續尋找逐字同步版本。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "依此順序嘗試，拖曳即可重新排序。優先採用最先回應的高順位來源；若開啟「優先使用逐字同步歌詞」，則會繼續尋找逐字同步版本。"
+          }
+        }
+      }
+    },
+    "Tried top to bottom. Reorder in Settings → Lyrics → Lyrics Sources.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由上而下依序嘗試。可在「設定」→「歌詞」→「歌詞來源」中重新排序。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由上而下依序嘗試。可在「設定」→「歌詞」→「歌詞來源」中重新排序。"
+          }
+        }
+      }
+    },
     "Trim Leading and Trailing Silence": {
       "localizations": {
         "zh-TW": {
@@ -19975,8 +21661,38 @@
         }
       }
     },
-    "Turn off to give BitChord audio priority. Other apps may pause.": {},
-    "Turn on to keep other apps audible.": {},
+    "Turn off to give BitChord audio priority. Other apps may pause.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉後會優先播放 BitChord 音訊，其他 App 可能會暫停。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉後會優先播放 BitChord 音訊，其他 App 可能會暫停。"
+          }
+        }
+      }
+    },
+    "Turn on to keep other apps audible.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟後可同時聽見其他 App 的音訊。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟後可同時聽見其他 App 的音訊。"
+          }
+        }
+      }
+    },
     "USB Audio": {
       "localizations": {
         "zh-TW": {
@@ -20563,7 +22279,22 @@
         }
       }
     },
-    "Vocal model installed — without the beat model Automix falls back to tempo analysis": {},
+    "Vocal model installed — without the beat model Automix falls back to tempo analysis": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝人聲模型；缺少節拍模型時，AutoMix 會改用速度分析"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已安裝人聲模型；缺少節拍模型時，AutoMix 會改用速度分析"
+          }
+        }
+      }
+    },
     "Volume": {
       "localizations": {
         "zh-TW": {
@@ -20756,7 +22487,22 @@
         }
       }
     },
-    "WebDAV": {},
+    "WebDAV": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebDAV"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebDAV"
+          }
+        }
+      }
+    },
     "What should we call you?": {
       "localizations": {
         "de": {
@@ -20969,7 +22715,22 @@
         }
       }
     },
-    "When on, a merely line-synced answer waits for a word-synced one further down the list.": {},
+    "When on, a merely line-synced answer waits for a word-synced one further down the list.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟後，如果目前結果僅支援逐行同步，會繼續等候列表中其他來源提供逐字同步歌詞。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟後，如果目前結果僅支援逐行同步，會繼續等候列表中其他來源提供逐字同步歌詞。"
+          }
+        }
+      }
+    },
     "Wi-Fi or Ethernet": {
       "localizations": {
         "zh-TW": {
@@ -21002,7 +22763,22 @@
         }
       }
     },
-    "Wider shapes with a richer sound.": {},
+    "Wider shapes with a richer sound.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "採用較寬的頻帶調整，讓聲音更飽滿。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "採用較寬的頻帶調整，讓聲音更飽滿。"
+          }
+        }
+      }
+    },
     "Width": {
       "localizations": {
         "zh-TW": {
@@ -21042,6 +22818,18 @@
             "state": "new",
             "value": "You got through **%1$lld songs** by **%2$lld artists**."
           }
+        },
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你聆聽了 **%2$lld 位藝人**的 **%1$lld 首歌曲**。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你聆聽了 **%2$lld 位藝人**的 **%1$lld 首歌曲**。"
+          }
         }
       }
     },
@@ -21077,7 +22865,22 @@
         }
       }
     },
-    "You played **%lld songs**, one was your anthem.": {},
+    "You played **%lld songs**, one was your anthem.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你播放了 **%lld 首歌曲**，其中一首是你的主題曲。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你播放了 **%lld 首歌曲**，其中一首是你的主題曲。"
+          }
+        }
+      }
+    },
     "You will show up as %@.": {
       "localizations": {
         "zh-TW": {
@@ -21094,7 +22897,22 @@
         }
       }
     },
-    "YouTube Music": {},
+    "YouTube Music": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YouTube Music"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YouTube Music"
+          }
+        }
+      }
+    },
     "Your Data": {
       "localizations": {
         "zh-TW": {
@@ -21893,13 +23711,118 @@
         }
       }
     },
-    "https://cloud.example.com/dav": {},
-    "https://your-server.com": {},
-    "https://…": {},
-    "open-unmix reads how much singing is in each moment, so Automix can keep two vocals from overlapping.": {},
-    "open-unmix umxhq": {},
-    "sp_dc cookie": {},
-    "{song_name}, {artist_name} and {album_name} are replaced with the track. The first button opens the song on YouTube Music, the second this project.": {},
+    "https://cloud.example.com/dav": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://cloud.example.com/dav"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://cloud.example.com/dav"
+          }
+        }
+      }
+    },
+    "https://your-server.com": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://your-server.com"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://your-server.com"
+          }
+        }
+      }
+    },
+    "https://…": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://…"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "https://…"
+          }
+        }
+      }
+    },
+    "open-unmix reads how much singing is in each moment, so Automix can keep two vocals from overlapping.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "open-unmix 會分析每個時刻的人聲強度，讓 AutoMix 避免兩首歌曲的人聲重疊。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "open-unmix 會分析每個時刻的人聲強度，讓 AutoMix 避免兩首歌曲的人聲重疊。"
+          }
+        }
+      }
+    },
+    "open-unmix umxhq": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "open-unmix umxhq"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "open-unmix umxhq"
+          }
+        }
+      }
+    },
+    "sp_dc cookie": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sp_dc cookie"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sp_dc cookie"
+          }
+        }
+      }
+    },
+    "{song_name}, {artist_name} and {album_name} are replaced with the track. The first button opens the song on YouTube Music, the second this project.": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "{song_name}、{artist_name} 與 {album_name} 會替換為目前歌曲的資訊。第一個按鈕會在 YouTube Music 開啟歌曲，第二個按鈕則開啟此專案。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "{song_name}、{artist_name} 與 {album_name} 會替換為目前歌曲的資訊。第一個按鈕會在 YouTube Music 開啟歌曲，第二個按鈕則開啟此專案。"
+          }
+        }
+      }
+    },
     "“%@” is in two places": {
       "localizations": {
         "zh-TW": {
@@ -21916,7 +23839,22 @@
         }
       }
     },
-    "•": {},
+    "•": {
+      "localizations": {
+        "zh-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "•"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "•"
+          }
+        }
+      }
+    },
     "Reduce Animation": {
       "localizations": {
         "zh-TW": {

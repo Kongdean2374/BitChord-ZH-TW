@@ -1,0 +1,75 @@
+name: Taiwan Chinese unsigned iOS IPA
+on:
+  push:
+    branches: [l10n/zh-tw-ios-phase-1]
+    paths:
+      - 'AppleApp/**'
+      - '.github/workflows/ios-zh-tw.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ios-zh-tw-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  unsigned-ipa:
+    runs-on: macos-15
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify host and SDK
+        run: |
+          test "$(uname -m)" = arm64
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin,aarch64-apple-ios
+      - name: Install build tools
+        run: |
+          brew install xcodegen cmake
+          rustup target add aarch64-apple-darwin aarch64-apple-ios
+      - name: Check localization
+        run: python3 AppleApp/scripts/audit-localization.py
+      - name: Build shared framework
+        run: CONFIG=release bash scripts/build-shared-framework.sh
+      - name: Build native framework
+        run: NATIVE_TARGETS="aarch64-apple-darwin aarch64-apple-ios" bash scripts/build-native-core.sh
+      - name: Generate Xcode project
+        run: xcodegen generate --spec AppleApp/project.yml
+      - name: Archive unsigned IPA
+        run: |
+          set -o pipefail
+          bash scripts/package-ios-ipa.sh 1.0.4 --output-dir build/zh-tw 2>&1 | tee ios-build.log
+      - name: Verify bundled Taiwan localization and checksum
+        run: |
+          python3 - <<'PY'
+          import pathlib, zipfile
+          ipa = next(pathlib.Path('build/zh-tw').glob('*.ipa'))
+          with zipfile.ZipFile(ipa) as z:
+              assert any('/zh-TW.lproj/Localizable.strings' in n for n in z.namelist()), 'Missing zh-TW resource in IPA'
+          PY
+          shasum -a 256 build/zh-tw/*.ipa > build/zh-tw/SHA256.txt
+      - name: Upload unsigned IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: BitChord-1.0.4-build13-zh-TW-unsigned
+          path: build/zh-tw/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-zh-tw-diagnostics
+          path: |
+            ios-build.log
+            AppleApp/localization-audit.json
+          if-no-files-found: ignore
+          retention-days: 14
